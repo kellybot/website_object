@@ -1,0 +1,26 @@
+db_explore
+==========
+
+small mysql explorer (not secure, for use on localhost only)
+
+
+
+
+
+HI!
+I MADE THIS PROGRAM VERY QUICKLY OUT OF 
+THE NECESSITY TO EXAMINE CHANGES IN SEVERAL 
+INTERACTING MYSQL TABLES. 
+
+BECAUSE I MADE IT HASTILY,
+IT IS VERY BUGGY, AND SENSITIVE DATA IS NOT HANDLED 
+IN A SECURE FASHION.
+
+!!!DO NOT USE ON THE OPEN INTERNET (I ONLY USE IT ON XAMPP)!!!
+
+That said, I found it useful for examining and making small changes in databases.
+Use at your own risk.
+
+KNOWN ISSUES:
+1.Connection variables stored unencrypted, in /includes/db_cfg/dbCfg.php.
+2.MySQL input is not sanitized.
