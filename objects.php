@@ -144,6 +144,19 @@
   			//file_put_contents("contents_of_closedderp.txt", $closederp);
   			return $closederp;
   		}
+
+
+
+
+
+
+
+
+
+
+
+		
+
 	}
 
 
@@ -183,8 +196,6 @@
 				
 			}
 
-
-			//why did I put in that -2?
 			$mysql_column_list[(strlen($mysql_column_list)-2)] = " ";
 
 
@@ -225,7 +236,7 @@
 
 			
 			//if($securityConfirm){
-				if(mysql_query($final_insert)){echo "<br>the query worked<br>";}else{echo "the query didnt work"; echo "<br>ERROR: ".mysql_error();}
+				if(mysql_query($final_insert)){echo "<br>the query worked lol<br>";}else{echo "the query didnt work lol"; echo "<br>ERROR: ".mysql_error();}
 			//}else{echo "<br> please only enter letters and numbers";}
 
 			$mysqlDiv -> closeDiv();
@@ -244,7 +255,7 @@
 
 			$currentTable = $tablename;
 			$mysql_query = "SELECT * FROM $tablename";
-			if($query_result = mysql_query($mysql_query)){echo "<br> the query worked";}else{echo "the query didnt work"; echo "YOUR QUERY: ".$mysql_query;}
+			if($query_result = mysql_query($mysql_query)){echo "<br> the query worked man";}else{echo "the query didnt work man"; echo "YOUR QUERY: ".$mysql_query;}
 			//print_r($query_result);
 
 			if(mysql_num_rows($query_result)>0){echo "<br>number of rows is greater than zero<br> "; }else{echo"<br>number of rows is not greater than zero";}
